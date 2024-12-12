@@ -29,3 +29,9 @@ class Ave(Animal):
         halcon = Ave(nombreHalcon, edadHalcon, "montañas", generoHalcon, "café glorioso")
         Ave.halcones += 1
         return halcon
+    
+    def toString(self):
+        if self._zona != None:
+            mensaje = f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}, la zona en la que me ubico es {self._zona.getnombre()} en el {self._zona.getZoo().getNombre()}"
+        else:
+            mensaje = f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}"
