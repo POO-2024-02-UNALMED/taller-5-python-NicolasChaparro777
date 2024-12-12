@@ -42,7 +42,7 @@ class Animal:
         return "desplazarse"
     
     @staticmethod
-    def totalPorTipo(self):
+    def totalPorTipo():
         from .anfibio import Anfibio
         from .ave import Ave
         from .mamifero import Mamifero
