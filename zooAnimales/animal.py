@@ -48,7 +48,7 @@ class Animal:
         from .mamifero import Mamifero
         from .pez import Pez
         from .reptil import Reptil
-        mensaje = f"Mamiferos: {len(Mamifero.listado)}\nAves: {len(Ave.listado)}\nReptiles: {len(Reptil.listado)}\nPeces: {len(Pez.listado)}\nAnfibios: {Anfibio.listado}"
+        mensaje = f"Mamiferos : {len(Mamifero.listado)}\nAves: {len(Ave.listado)}\nReptiles: {len(Reptil.listado)}\nPeces: {len(Pez.listado)}\nAnfibios: {len(Anfibio.listado)}"
         return mensaje
     
     def __str__(self):
